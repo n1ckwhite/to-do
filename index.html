@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Задачник</title>
+  </head>
+  <body class="page">
+    <h1 class="todo__title">
+      Добро пожаловать <br />
+      в <span class="logo">Задачник</span>
+    </h1>
+    <div class="todo__wrapper">
+      <form action="#" class="todo__form">
+        <input type="text" class="todo__name" />
+        <button class="todo__form-button"></button>
+      </form>
+      <p class="todo__subtitle">Задачи:</p>
+      <ul class="todo__list"></ul>
+    </div>
+    <footer class="footer">
+      <p class="footer__copy">Задачник&copy;2022</p>
+    </footer>
+    <template id="template">
+      <li class="todo__item">
+        <strong class="todo__text"></strong>
+        <button class="todo__button"></button>
+      </li>
+    </template>
+    <script src="script.js"></script>
+  </body>
+</html>
