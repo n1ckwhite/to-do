@@ -114,20 +114,11 @@
 }
 
 .todo__list {
-  height: 40vh;
   padding: 0;
   margin: 0;
   padding-top: 20px;
   display: flex;
   flex-direction: column;
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.todo__list::-webkit-scrollbar {
-  width: 0;
-  height: 0;
 }
 
 .todo__text {
