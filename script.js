@@ -1,4 +1,4 @@
-const initialTasks = ["твоя задача"];
+const initialTasks = ["свою задачу", "запиши"];
 
 const template = document.querySelector("#template").content;
 const todoList = document.querySelector(".todo__list");

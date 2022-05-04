@@ -12,28 +12,16 @@
 
 .todo__title {
   font-size: 30px;
-  line-height: 60px;
+  line-height: 34px;
   font-weight: 500;
   text-align: center;
   margin: 0;
-  color: #00d4ff;
+  color: rgb(162, 161, 161);
   padding-top: 20px;
 }
 
-.logo {
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(114, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-}
-
 .todo__subtitle {
-  color: #00d4ff;
+  color: rgb(162, 161, 161);
   text-transform: uppercase;
   font-weight: 400;
   font-size: 24px;
@@ -53,59 +41,35 @@
 }
 
 .todo__form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
 }
 
 .todo__name {
   color: #fff;
-  background: transparent;
+  border: 0;
+  background: #000;
   font-family: inherit;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 28px;
   box-sizing: border-box;
   height: 50px;
   padding: 0;
-  border: 0;
   padding: 10px;
   outline: none;
-  text-align: center;
   width: 100%;
-  border-bottom: 3px solid rgb(114, 9, 121);
-  transition: 0.2s;
-}
-
-.todo__name:hover {
-  border-bottom: 3px solid rgba(114, 9, 121, 0.6);
-}
-
-.todo__form-button {
-  box-sizing: border-box;
-  background: url(img/add.svg);
-  border: 0;
-  width: 30px;
-  height: 30px;
-  background-size: cover;
-  cursor: pointer;
-  transition: 0.2s;
-  padding: 25px;
-}
-
-.todo__form-button:hover {
-  opacity: 0.6;
+  border-radius: 10px;
 }
 
 .todo__button {
   box-sizing: border-box;
-  background: url(img/delete.svg);
   border: 0;
-  width: 20px;
-  height: 20px;
-  background-size: cover;
   padding: 15px;
   cursor: pointer;
   transition: 0.2s;
+  background: transparent;
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .todo__button:hover {
@@ -113,6 +77,7 @@
 }
 
 .todo__list {
+  width: 100%;
   padding: 0 10px;
   margin: 0;
   padding-top: 20px;
@@ -121,27 +86,20 @@
 }
 
 .todo__text {
-  text-transform: uppercase;
   max-width: 220px;
-  width: 100%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .todo__item {
-  border-left: 5px solid #720979;
   border-radius: 10px;
   margin-top: 20px;
   display: flex;
   align-items: center;
-  padding: 10px;
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(114, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  justify-content: space-between;
+  padding: 0 20px;
+  background: #000;
 }
 
 .todo__item:first-child {
@@ -157,5 +115,5 @@
   padding-bottom: 20px;
   margin: 0;
   font-weight: 300;
-  opacity: .6;
+  opacity: 0.6;
 }

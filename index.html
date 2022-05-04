@@ -15,14 +15,10 @@
     <title>Задачник</title>
   </head>
   <body class="page">
-    <h1 class="todo__title">
-      Добро пожаловать <br />
-      в <span class="logo">Задачник</span>
-    </h1>
+    <h1 class="todo__title">Добро пожаловать Задачник</h1>
     <div class="todo__wrapper">
       <form action="#" class="todo__form">
-        <input type="text" class="todo__name" />
-        <button class="todo__form-button"></button>
+        <input type="text" class="todo__name" placeholder="Введите задачу:" />
       </form>
       <p class="todo__subtitle">Задачи:</p>
       <ul class="todo__list"></ul>
@@ -33,7 +29,7 @@
     <template id="template">
       <li class="todo__item">
         <strong class="todo__text"></strong>
-        <button class="todo__button"></button>
+        <button class="todo__button">Удалить</button>
       </li>
     </template>
     <script src="script.js"></script>
